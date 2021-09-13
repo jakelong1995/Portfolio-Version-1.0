@@ -5,6 +5,9 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    colors:{
+      primary: "#23A1EB"
+    },
     extend: {},
   },
   variants: {
