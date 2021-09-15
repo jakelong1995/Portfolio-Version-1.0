@@ -5,10 +5,14 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    colors:{
-      primary: "#23A1EB"
+    extend: {
+      colors:{
+        primary: "#23A1EB"
+      },
+      container:{
+        center: true
+      },
     },
-    extend: {},
   },
   variants: {
     extend: {},
