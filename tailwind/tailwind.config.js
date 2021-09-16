@@ -12,6 +12,12 @@ module.exports = {
       container:{
         center: true
       },
+      fontSize:{
+        "h2":['48px',{lineHeight: '56px'}]
+      },
+      fontFamily:{
+        body: "'Open Sans', sans-serif"
+      }
     },
   },
   variants: {
