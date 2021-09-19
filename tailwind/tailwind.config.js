@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       colors:{
         primary: "#23A1EB",
-        gray1: "#C0C0C0"
+        gray1: "#C0C0C0",
+        gradient: "bg-gradient-to-r from-green-400 to-blue-500"
       },
       container:{
         center: true
