@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        primary: "#23A1EB"
+        primary: "#23A1EB",
+        gray1: "#C0C0C0"
       },
       container:{
         center: true
@@ -23,5 +24,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio')
+  ],
 }
